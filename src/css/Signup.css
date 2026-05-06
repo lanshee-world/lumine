@@ -1,0 +1,100 @@
+/* Background */
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card */
+.signup-card {
+  background: #111;
+  padding: 40px;
+  border-radius: 16px;
+  width: 400px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #c9a96e; /* gold accent */
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+/* Inputs */
+.signup-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: #1a1a1a;
+  color: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+
+.signup-card input:focus {
+  border-color: #c9a96e;
+  box-shadow: 0 0 8px rgba(201, 169, 110, 0.4);
+}
+
+/* Button */
+.signup-card button {
+  width: 100%;
+  padding: 12px;
+  background: #c9a96e;
+  border: none;
+  border-radius: 8px;
+  color: #111;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-card button:hover {
+  background: #e5c07b;
+}
+
+/* Messages */
+.loading {
+  color: #aaa;
+}
+
+.success {
+  color: #4caf50;
+}
+
+.error {
+  color: #ff4d4d;
+}
+
+/* Link */
+.signin-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signin-link a {
+  color: #c9a96e;
+  text-decoration: none;
+}
+.signup-card {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
