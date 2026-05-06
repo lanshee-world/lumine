@@ -40,55 +40,86 @@ const Getproducts = ({ searchQuery, addToCart }) => {
   return (
     <div style={{ backgroundColor: theme.light }}>
       {/* --- HERO SECTION --- */}
+      {/* This only shows on the home landing page, not during search */}
       {!searchQuery && (
         <section style={{ 
           height: '85vh', 
           width: '100%', 
           position: 'relative', 
           overflow: 'hidden',
-          backgroundColor: theme.dark,
+          backgroundColor: '#000', 
           marginBottom: '60px'
         }}>
-          {/* Background Image Overlay */}
+          {/* Background Image with a darken overlay for text clarity */}
           <div style={{
             position: 'absolute',
             top: 0, left: 0, width: '100%', height: '100%',
-            backgroundImage: 'url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2070&auto=format&fit=crop")', 
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2070&auto=format&fit=crop")`, 
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            opacity: '0.6'
           }}></div>
 
           <div className="container h-100 d-flex flex-column justify-content-center align-items-center text-center" style={{ position: 'relative', zIndex: 2 }}>
-            <h6 style={{ color: theme.accent, letterSpacing: '6px', textTransform: 'uppercase', fontWeight: '700', marginBottom: '20px' }}>
+            <h6 style={{ 
+              color: theme.accent, 
+              letterSpacing: '6px', 
+              textTransform: 'uppercase', 
+              fontWeight: '700', 
+              marginBottom: '20px',
+              textShadow: '2px 2px 4px rgba(0,0,0,0.6)' 
+            }}>
               THE PRESTIGE COLLECTION
             </h6>
+            
             <h1 style={{ 
               fontFamily: "'Playfair Display', serif", 
               fontSize: 'clamp(2.5rem, 8vw, 5rem)', 
-              color: '#fff', 
+              color: '#ffffff', 
               letterSpacing: '12px', 
               textTransform: 'uppercase',
-              lineHeight: '1.1'
+              lineHeight: '1.1',
+              textShadow: '0px 4px 12px rgba(0,0,0,0.9)' 
             }}>
-              Lumine <br/> <span style={{ fontSize: '0.4em', letterSpacing: '15px', color: '#ccc' }}>VANT SERIES</span>
+              Lumine <br/> 
+              <span style={{ 
+                fontSize: '0.4em', 
+                letterSpacing: '15px', 
+                color: '#f0f0f0', 
+                fontWeight: '400' 
+              }}>
+                VANT SERIES
+              </span>
             </h1>
-            <p style={{ color: '#fff', maxWidth: '600px', marginTop: '30px', fontSize: '0.9rem', letterSpacing: '2px', fontWeight: '300', opacity: '0.8' }}>
+
+            <p style={{ 
+              color: '#ffffff', 
+              maxWidth: '600px', 
+              marginTop: '30px', 
+              fontSize: '0.95rem', 
+              letterSpacing: '2px', 
+              fontWeight: '400',
+              textShadow: '1px 1px 5px rgba(0,0,0,1)' 
+            }}>
               Curated apparel and jewelry for the modern visionary. <br/> 
               Experience the synergy of style and investment.
             </p>
+
             <div className="mt-5">
               <button style={{ 
-                  background: 'transparent', 
+                  background: theme.accent, 
                   border: `1px solid ${theme.accent}`, 
-                  color: theme.accent, 
-                  padding: '15px 40px', 
-                  fontSize: '0.7rem', 
+                  color: '#fff', 
+                  padding: '16px 45px', 
+                  fontSize: '0.75rem', 
                   fontWeight: '700', 
                   letterSpacing: '3px', 
                   textTransform: 'uppercase',
-                  cursor: 'pointer'
+                  cursor: 'pointer',
+                  boxShadow: '0 4px 15px rgba(0,0,0,0.4)',
+                  transition: '0.3s'
                 }}
+                onMouseOver={(e) => e.target.style.opacity = '0.9'}
+                onMouseOut={(e) => e.target.style.opacity = '1'}
                 onClick={() => window.scrollTo({ top: 800, behavior: 'smooth' })}
               >
                 Explore Collection
@@ -116,7 +147,7 @@ const Getproducts = ({ searchQuery, addToCart }) => {
         <div className="row g-5"> 
           {filteredProducts.map((product) => (
             <div className="col-md-4 col-lg-3 d-flex align-items-stretch" key={product.id}>
-              <div className="card border-0 w-100 bg-transparent product-card">
+              <div className="card border-0 w-100 bg-transparent">
                 
                 <div style={{ height: '350px', overflow: 'hidden', backgroundColor: '#f9f9f9' }}>
                   <img 
@@ -140,6 +171,7 @@ const Getproducts = ({ searchQuery, addToCart }) => {
                     KES {Number(product.product_cost).toLocaleString()}
                   </h4>
 
+                  {/* Primary Button: Purchase Now */}
                   <button 
                     className="btn btn-dark w-100 mb-2 py-2" 
                     style={{ 
@@ -156,6 +188,7 @@ const Getproducts = ({ searchQuery, addToCart }) => {
                     Purchase Now
                   </button>
 
+                  {/* Secondary Button: Add to Cart */}
                   <button 
                     className="btn w-100 py-2" 
                     style={{ 

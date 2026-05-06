@@ -114,13 +114,35 @@ function App() {
               <Link to="/about" style={navItemStyle}>About Us</Link>
               <Link to="/cart" style={navItemStyle}>Cart ({cart.length})</Link>
               {isAdmin && <Link to="/addproducts" style={navItemStyle}>Admin</Link>}
+              
+              {/* --- DYNAMIC AUTH LINKS --- */}
               {userEmail ? (
-                <button onClick={handleLogout} style={{ ...navItemStyle, border: 'none', background: 'none', cursor: 'pointer' }}>Logout</button>
+                // If user is logged in: Show Logout only
+                <button 
+                  onClick={handleLogout} 
+                  style={{ ...navItemStyle, border: 'none', background: 'none', cursor: 'pointer' }}
+                >
+                  Logout
+                </button>
               ) : (
-                <Link to="/signin" style={navItemStyle}>Sign In</Link>
+                // If user is NOT logged in: Show Sign In AND Join
+                <>
+                  <Link to="/signin" style={navItemStyle}>Sign In</Link>
+                  <Link 
+                    to="/signup" 
+                    style={{ 
+                      ...navItemStyle, 
+                      backgroundColor: theme.dark, 
+                      color: '#fff', 
+                      padding: '10px 25px' 
+                    }}
+                  >
+                    Join
+                  </Link>
+                </>
               )}
-              <Link to="/signup" style={{ ...navItemStyle, backgroundColor: theme.dark, color: '#fff', padding: '10px 25px' }}>Join</Link>
             </div>
+            
             <input 
               type="text" placeholder="SEARCH THE COLLECTION..." value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -160,7 +182,7 @@ function App() {
           </div>
         </section>
 
-        {/* RESTORED FULL FOOTER */}
+        {/* Footer */}
         <footer style={{ padding: '80px 0 40px 0', borderTop: '1px solid #eee', backgroundColor: theme.footerBg }}>
           <div className="container">
             <div className="row g-4 text-center text-md-start">
