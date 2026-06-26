@@ -1,0 +1,290 @@
+[
+    {
+        "Category": "English_Welcome",
+        "Keywords": "none",
+        "Utterance": "none",
+        "Responses": "Welcome to Lumine. How may I help you elevate your style today?|Good day. I am the Lumine assistant, here to guide you through our exquisite collection.|Welcome to the world of Lumine. How can I assist you today?"
+    },
+    {
+        "Category": "Greeting",
+        "Keywords": "hi;hello;hey;jambo;mambo;sasa;habari;vipi;niaje;oi;mambo vipi;wadup;maze;wazazi;manze;kaka;dada",
+        "Utterance": "Sasa!",
+        "Responses": "Welcome to Lumine. How can I elevate your style today?|Mambo fiti! Looking for something prestigious today?|Sasa! Karibu to Lumine. How can we help?|Niaje! Ready for some new drip?"
+    },
+    {
+        "Category": "Identity",
+        "Keywords": "lumine;brand;who;what;vision;story;philosophy;vant;owner;meaning",
+        "Utterance": "What is Lumine?",
+        "Responses": "Lumine is a premium brand for the modern generation.|We focus on minimalist fashion and high-end jewelry with a prestigious feel.|Lumine is about clarity, light, and high-quality aesthetics."
+    },
+    {
+        "Category": "Location",
+        "Keywords": "where;nairobi;kenya;shop;office;physical;store;location;iko wapi;base;mko pande gani;cbd;town",
+        "Utterance": "Where are you located?",
+        "Responses": "We are based in Nairobi and ship nationwide!|Lumine is currently an online-first brand based in Kenya, with fast 24-hour delivery in Nairobi.|Tuko Nairobi, but we deliver everywhere in Kenya."
+    },
+    {
+        "Category": "Support",
+        "Keywords": "help;menu;options;assistance;guide;form;huku;siezi;nisaidie;saidia;customer care",
+        "Utterance": "I need help.",
+        "Responses": "I can help you with: 1. Stock & Inventory, 2. Jewelry Care, 3. Shipping Rates, 4. Current Offers.|Need a hand? Ask me about our collections, sizing, or how to pay via M-Pesa.|Niko hapa kusaidia. Ask about our drip or delivery."
+    },
+    {
+        "Category": "Inventory",
+        "Keywords": "stock;available;have;t-shirt;shirt;hoodie;collection;vest;mko na;ziko;iko;natafuta;tafuta;drip;nguo;luku;item;products;picha;shorts;caps",
+        "Utterance": "What is in stock?",
+        "Responses": "Our t-shirts and signature jewelry are currently available!|Ziko! We have fresh drops in t-shirts and minimalist accessories.|Check out our latest collection on the website for the freshest Lumine drip.|Luku ni safi! We have shirts and jewelry ready for you."
+    },
+    {
+        "Category": "Payment-Mpesa",
+        "Keywords": "mpesa;lipa;till;paybill;stk;push;pin;namba;number",
+        "Utterance": "How do I pay via M-Pesa?",
+        "Responses": "We use an STK push for M-Pesa. Just enter your PIN when the prompt appears on your phone!|Our official M-Pesa Till details are provided at the final step of checkout."
+    },
+    {
+        "Category": "Payment-Other",
+        "Keywords": "kcb;card;visa;mastercard;bank;transfer;equity;airtel;pesa",
+        "Utterance": "Can I pay with a card?",
+        "Responses": "Yes, we accept all major Credit/Debit cards (Visa/Mastercard) and KCB bank transfers.|Our checkout is secure and supports international cards for global orders."
+    },
+    {
+        "Category": "Pricing",
+        "Keywords": "how much;bei;cost;amount;pesa;how many;expensive;cheap;shillings;kes",
+        "Utterance": "What is the price?",
+        "Responses": "Lumine offers premium quality at accessible prices. Check the specific item on our site for the current tag!|Our prices reflect the high-grade materials we use. Quality is an investment."
+    },
+    {
+        "Category": "Shipping-NBO",
+        "Keywords": "nairobi;fast;today;tomorrow;speed;urgent;express",
+        "Utterance": "How fast is Nairobi delivery?",
+        "Responses": "Nairobi orders are delivered within 24 hours!|Order before noon and you might even get your Lumine package the same day."
+    },
+    {
+        "Category": "Shipping-Country",
+        "Keywords": "mombasa;kisumu;eldoret;nakuru;tuma;deliver;far;outside;upcountry;busia;thika",
+        "Utterance": "Do you ship upcountry?",
+        "Responses": "We deliver upcountry via reliable couriers within 2-3 business days.|Nationwide shipping is available! Whether you're in Mombasa or Kisumu, Lumine will reach you."
+    },
+    {
+        "Category": "Shipping-Intl",
+        "Keywords": "global;worldwide;international;usa;europe;uganda;tanzania;outside kenya",
+        "Utterance": "Do you ship internationally?",
+        "Responses": "Yes, Lumine goes global! International shipping takes 7-14 business days depending on your location.|We ship worldwide—shipping costs are calculated at checkout."
+    },
+    {
+        "Category": "Jewelry-Materials",
+        "Keywords": "gold;plated;vermeil;18k;silver;925;sterling;solid;metal",
+        "Utterance": "Is it real gold/silver?",
+        "Responses": "Our gold pieces are 18k Gold Plated or Gold Vermeil for that luxury look.|Our silver collection is crafted from genuine 925 Sterling Silver, which is durable and hypoallergenic."
+    },
+    {
+        "Category": "Jewelry-Care",
+        "Keywords": "tarnish;water;shower;rust;clean;shine;pool;ocean;blacken;soap;perfume",
+        "Utterance": "Can I wear it in the shower?",
+        "Responses": "To keep that Lumine shine, we recommend removing jewelry before swimming or showering.|Water and chemicals can dull the plating; keep your pieces dry for a lifetime of glow."
+    },
+    {
+        "Category": "Jewelry-Items",
+        "Keywords": "ring;necklace;chain;bracelet;peti;pendant;earring;studs;jewelry;jewellery",
+        "Utterance": "What jewelry do you have?",
+        "Responses": "We have a curated collection of rings, necklaces, and bracelets designed for a minimalist look.|Check our Jewelry section for 18k gold and 925 silver pieces."
+    },
+    {
+        "Category": "Sizing-Tops",
+        "Keywords": "size;fit;measure;cm;inches;guide;small;medium;large;xl;fits;fitting;oversize;baggy",
+        "Utterance": "What size should I get?",
+        "Responses": "Check our Size Guide on the website for exact measurements.|If you want that oversize 'streetwear' look, we recommend sizing up one from your usual fit."
+    },
+    {
+        "Category": "Sizing-Rings",
+        "Keywords": "ring size;finger;diameter;circumference;small finger;big finger",
+        "Utterance": "How do I know my ring size?",
+        "Responses": "You can measure your finger with a piece of string and compare it to our diameter chart online!|We follow standard US sizing for all our Lumine rings."
+    },
+    {
+        "Category": "Returns",
+        "Keywords": "return;exchange;refund;swap;change;faulty;rudisha;badilisha;wrong size",
+        "Utterance": "Can I return it?",
+        "Responses": "We offer exchanges within 7 days if the tags are intact and the item is unworn.|Kama size haitoshi, you can swap it within a week of delivery."
+    },
+    {
+        "Category": "Sustainability",
+        "Keywords": "eco;green;environment;ethical;waste;slow;earth;planet;packaging",
+        "Utterance": "Is the brand ethical?",
+        "Responses": "We believe in 'Slow Fashion'—creating high-quality pieces that last years, not weeks.|Lumine uses ethical sourcing and minimal plastic packaging."
+    },
+    {
+        "Category": "Gifting",
+        "Keywords": "gift;present;box;packaging;birthday;surprise;wrap;message;valentine",
+        "Utterance": "Is it gift-ready?",
+        "Responses": "Every Lumine order arrives in our signature minimalist packaging, perfect for gifting!|Add a 'Gift Note' at checkout and we will include a handwritten message."
+    },
+    {
+        "Category": "Collabs",
+        "Keywords": "influencer;model;promote;collab;ambassador;work;partner;content;socials",
+        "Utterance": "Can I be an ambassador?",
+        "Responses": "We love creators! DM us your portfolio or email collab@lumine.com to join the Lumine family.|We are always looking for brand ambassadors who embody our aesthetic."
+    },
+    {
+        "Category": "Restock",
+        "Keywords": "restock;sold out;back;stock;notify;available soon;when",
+        "Utterance": "When will it be back?",
+        "Responses": "If an item is sold out, hit 'Notify Me' on the product page to be the first to know!|We restock popular items every month based on demand."
+    },
+    {
+        "Category": "Clothing-Care",
+        "Keywords": "wash;iron;dry;laundry;shrink;bleach;cold;hot;machine",
+        "Utterance": "How do I wash the clothes?",
+        "Responses": "Cold hand wash is best for our premium fabrics. Avoid high-heat drying to prevent shrinkage.|To keep the quality, air dry your clothes and iron on low heat."
+    },
+    {
+        "Category": "Discounts",
+        "Keywords": "code;sale;offer;discount;promo;cheap;deals;less;punguzo;student",
+        "Utterance": "Any offers?",
+        "Responses": "Use code LUMINE10 for 10% off your first order!|Join our 'Lumine Insiders' via email for exclusive access to secret sales."
+    },
+    {
+        "Category": "Hours",
+        "Keywords": "open;time;close;weekend;sunday;saturday;working hours",
+        "Utterance": "When are you open?",
+        "Responses": "Our website is open 24/7 for orders!|Customer support is available from 8 AM to 8 PM, Monday to Saturday."
+    },
+    {
+        "Category": "Wholesale",
+        "Keywords": "bulk;wholesale;b2b;stockist;resell;shop;business",
+        "Utterance": "Do you do bulk sales?",
+        "Responses": "For bulk orders or stockist inquiries, please reach out to business@lumine.com.|We offer special pricing for verified partners and boutiques."
+    },
+    {
+        "Category": "Authenticity",
+        "Keywords": "fake;real;original;copy;genuine;authentic;legit",
+        "Utterance": "Are you legit?",
+        "Responses": "Lumine is a fully registered brand in Kenya. We pride ourselves on 100% original designs and high-grade materials.|Check our reviews on Instagram to see our happy community!"
+    },
+    {
+        "Category": "Quality",
+        "Keywords": "quality;durable;premium;best;standard;material quality",
+        "Utterance": "Is the quality good?",
+        "Responses": "Quality is our signature. We don't do 'fast fashion'—we do pieces that stay in your wardrobe for years.|Every Lumine item undergoes a strict quality check before shipping."
+    },
+    {
+        "Category": "Confidence",
+        "Keywords": "trust;safety;secure;scam;safe",
+        "Utterance": "Is it safe to shop here?",
+        "Responses": "Shopping with Lumine is 100% secure. We use encrypted payments and reliable delivery partners.|Your trust is our priority. We've served thousands of happy customers."
+    },
+    {
+        "Category": "Style-Advice",
+        "Keywords": "look;match;wear;outfit;style;pair;advice;suggestion",
+        "Utterance": "How do I style this?",
+        "Responses": "Lumine pieces are designed for versatility. Follow our Instagram for daily outfit inspiration!|Try pairing our minimalist jewelry with a neutral-tone hoodie for a prestigious street look."
+    },
+    {
+        "Category": "Slang-Responses",
+        "Keywords": "fiti;poa;safi;shwari;luku;iko sawa;noma;shukran;asante;thanks;nice",
+        "Utterance": "Iko fiti?",
+        "Responses": "Shwari kabisa! How can Lumine help you today?|Luku ni safi! Ready to add more drip to your collection?|Shukran for choosing Lumine!|Noma sana! You're going to love our new collection."
+    },
+    {
+        "Category": "Swahili-General",
+        "Keywords": "shilingi;ngapi;iko;wapi;tuma;badilisha;nguo;pete;mkufu",
+        "Utterance": "Mko na pete?",
+        "Responses": "Tuna pete za 18k gold plating na 925 silver. Check the website for styles!|Bei zote ziko kwa website yetu. Karibu sana."
+    },
+    {
+        "Category": "Feedback",
+        "Keywords": "review;complain;complaint;suggest;satisfied;happy;sad",
+        "Utterance": "I want to leave a review.",
+        "Responses": "We value your voice! Tag us on Instagram or leave a review on our product page.|If you have a complaint, please email support@lumine.com so we can make it right."
+    },
+    {
+        "Category": "App-Idea",
+        "Keywords": "monitoring;elderly;health;activity;app",
+        "Utterance": "Tell me about the app idea.",
+        "Responses": "Lumine is also exploring tech! We're working on a concept for an elderly health monitoring app. Stay tuned for more updates on our lifestyle tech wing."
+    },
+    {
+        "Category": "Employment",
+        "Keywords": "job;hiring;career;vacancy;work for you",
+        "Utterance": "Are you hiring?",
+        "Responses": "We aren't currently hiring, but follow our LinkedIn and Instagram for future vacancies!|Lumine is always growing, and we post new roles on our social media first."
+    },
+    {
+        "Category": "Fabric-Weight",
+        "Keywords": "gsm;thick;heavy;thin;material weight",
+        "Utterance": "Is the fabric heavy?",
+        "Responses": "Our t-shirts use a premium heavyweight cotton (240-280 GSM) for that structured, prestigious fit.|We focus on high-density fabrics that don't lose shape after washing."
+    },
+    {
+        "Category": "Jewelry-Sensitivity",
+        "Keywords": "allergy;skin;rash;itch;sensitive;green finger",
+        "Utterance": "Will it turn my finger green?",
+        "Responses": "No! Our 925 Sterling Silver and 18k Gold Plated pieces are hypoallergenic and lead-free.|We use high-quality plating to ensure your skin stays clear and comfortable."
+    },
+    {
+        "Category": "Prestige-Vibe",
+        "Keywords": "prestige;luxury;classy;expensive look;exclusive",
+        "Utterance": "Why is it prestigious?",
+        "Responses": "Lumine is built on the idea of 'Quiet Luxury'—understated, high-quality, and exclusive.|We focus on fine details that make you stand out without being loud."
+    },
+    {
+        "Category": "Packaging-Details",
+        "Keywords": "bag;box;pouch;dust bag;envelope",
+        "Utterance": "What does the packaging look like?",
+        "Responses": "Your jewelry comes in a custom Lumine pouch and box, while clothes arrive in our signature eco-friendly bags.|It's a premium unboxing experience every time."
+    },
+    {
+        "Category": "Waitlist",
+        "Keywords": "wait;sold out;coming back;restock date",
+        "Utterance": "When is the restock date?",
+        "Responses": "Popular items restock every 4 weeks. Join the waitlist on the product page to be first in line!|We notify our newsletter subscribers 24 hours before a restock goes live."
+    },
+    {
+        "Category": "Accessories",
+        "Keywords": "bag;belt;watch;socks;hat;beanie",
+        "Utterance": "Do you sell hats or bags?",
+        "Responses": "Currently, we focus on high-end jewelry and essential clothing. Bags and hats might be in our future drops!|Keep an eye on our 'Accessories' section for new additions."
+    },
+    {
+        "Category": "Lumine-Meaning",
+        "Keywords": "light;clear;bright;latin;name",
+        "Utterance": "What does the name mean?",
+        "Responses": "Lumine comes from the Latin word for 'Light.' It represents clarity, vision, and shining in your own way.|We chose the name to reflect the 'glow' our customers feel in our pieces."
+    },
+    {
+        "Category": "Customization",
+        "Keywords": "custom;name;engrave;personalize;made to order",
+        "Utterance": "Can I customize my piece?",
+        "Responses": "We don't offer custom engravings yet, but it's something we are looking into for our jewelry line!|Our pieces are currently sold as-is in our curated collections."
+    },
+    {
+        "Category": "Gender",
+        "Keywords": "men;women;unisex;male;female;boys;girls",
+        "Utterance": "Is it for men or women?",
+        "Responses": "Most Lumine pieces are designed to be Unisex. We believe style has no gender.|Our fits look great on everyone—just check the size guide for your perfect match."
+    },
+    {
+        "Category": "New-Arrivals",
+        "Keywords": "new;latest;just in;fresh;dropped;recent",
+        "Utterance": "What is new?",
+        "Responses": "Check the 'New Arrivals' tab on our site for our latest jewelry drop and heavyweight tees!|We just added new 925 silver rings and minimalist hoodies to the shop."
+    },
+    {
+        "Category": "Swahili-Logistics",
+        "Keywords": "itafika;lini;saa ngapi;leo;kesho;asubuhi;mchana",
+        "Utterance": "Itafika lini?",
+        "Responses": "Orders za Nairobi hufika ndani ya masaa 24.|Kama uko outside Nairobi, ngoja for 2-3 days utapata mzigo wako."
+    },
+    {
+        "Category": "Business-Hours",
+        "Keywords": "closing;opening;holiday;open now;closed",
+        "Utterance": "Are you open now?",
+        "Responses": "Our online shop never closes! You can order anytime, anywhere.|Our support team is active from 8 AM to 8 PM EAT."
+    },
+    {
+        "Category": "Newsletter",
+        "Keywords": "email;subscribe;join;",
+        "Utterance": "",
+        "Responses": ""
+    }
+]
